@@ -1,6 +1,6 @@
 # npmtest-ember-cli-document-title
 
-#### test coverage for  [ember-cli-document-title (v0.3.3)](https://github.com/kimroen/ember-cli-document-title)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-document-title.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-document-title) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-document-title.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-document-title)
+#### basic test coverage for  [ember-cli-document-title (v0.3.3)](https://github.com/kimroen/ember-cli-document-title)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-document-title.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-document-title) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-document-title.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-document-title)
 
 #### Adding document title functionality to your ember app
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-document-title/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-document-title/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-document-title/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-document-title/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-document-title/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-document-title/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "0.3.3"
+    "version": "0.3.3",
+    "bin": {}
 }
 ```
 
